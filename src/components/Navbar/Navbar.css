@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transition: var(--transition);
+  display: none;
+}
+
+nav.open {
+  display: flex;
+  width: 100vw;
+  align-items: flex-end;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 5rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  background-color: var(--color-secondary);
+  transition: var(--transition);
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+nav a:hover {
+  background-color: var(--color-activeBtn);
+  transform: scale(1.1);
+}
+
+@media (min-width: 644px) {
+  nav {
+    display: flex;
+  }
+}

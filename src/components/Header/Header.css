@@ -1,0 +1,17 @@
+.header {
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  z-index: 10;
+}
+
+@media (min-width: 644px) {
+  .header {
+    padding-right: 3rem;
+  }
+}

@@ -1,0 +1,29 @@
+:root {
+    --main-font: "Raleway", sans-serif;
+    --first-font: 'Kurale', serif;
+    --color-primary: rgb(5, 5, 54);
+    --color-secondary: rgb(146, 96, 31);
+    --color-third: #183E62;
+    --color-fourth: rgba(120, 158, 186, 0.07);
+    --color-activeBtn: rgba(146, 96, 31, 0.408);
+    --transition: all 0.5s ease-in-out;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: white
+}
+
+body {
+    background-color: var(--color-primary);
+    font-family: var(--first-font);
+}
+
+section {
+    padding: 2rem;
+}
