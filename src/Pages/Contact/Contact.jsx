@@ -1,6 +1,6 @@
 import {  useState } from "react";
 import "./Contact.css";
-import { onValidate } from "../../helpers/formValidator";
+import { onValidate } from "../../../public/assets/formValidator";
 import Thanks from "../../components/Thanks/Thanks";
 
 
@@ -96,7 +96,7 @@ const Contact = () => {
         <input type="submit" value="Get in touch" className="submit-btn" />
         {isLoading  && !error && (
           <div className="contact-form-loader">
-            <img src="src/assets/images/loader.svg" alt="Sending..." />
+            <img src="/assets/images/loader.svg" alt="Sending..." />
           </div>
         )}
         {errors && !isLoading && (

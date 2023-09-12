@@ -6,12 +6,12 @@ const About = () => {
     <div className="section">
       <div className="about">
         <img
-          src="src/assets/images/About.svg"
+          src="/assets/images/About.svg"
           alt="my learning path"
         />
         <div className="about-btns">
           <button className="download-btn">
-            <a href="src/assets/Resume.pdf" download>
+            <a href="/assets/Resume.pdf" download>
               Download resume <i className="fa fa-download"></i>
             </a>
           </button>

@@ -1,6 +1,6 @@
 
 import './Projects.css'
-import { projects } from "/src/assets/bd.js"
+import { projects } from "../../../public/assets/bd"
 import ProjectLink from '../../components/ProjectLink/ProjectLink';
 
 const Projects = () => {

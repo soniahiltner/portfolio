@@ -1,6 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import './Project.css'
-import { projects } from '../../assets/bd';
+import { projects } from '../../../public/assets/bd';
 
 const Project = () => {
 

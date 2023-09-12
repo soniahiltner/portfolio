@@ -6,7 +6,7 @@ const Home = () => {
       <div className='home'>
         <section className='left-home'>
           <img
-            src='src/assets/images/photo.png'
+            src='/assets/images/photo.png'
             alt='photo'
           />
         </section>
