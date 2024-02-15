@@ -2,6 +2,17 @@
 export const projects = [
   {
     id: 1,
+    name: 'MULTIPLAYER GAME',
+    image: '/assets/images/multiplayer_game.png',
+    description1: 'A 2D real time multiplayer game using the HTML Canvas API and Socket.io',
+    description2:
+      'Project for the Information Security Certification',
+    link1: 'https://github.com/soniahiltner/fcc_secure_real_time_multiplayer_game',
+    link2: 'https://multiplayer-game-tvxm.onrender.com/',
+    type: 'fcc'
+  },
+  {
+    id: 11,
     name: 'DRUM MACHINE',
     image: '/assets/images/Drum Machine-green.png',
     description1: 'Application made with React',
